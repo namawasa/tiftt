@@ -1,0 +1,69 @@
+.place {
+    height: 50px;
+    position: relative;
+    width: 100%;
+}
+
+.hot_stage{
+    background-image: repeating-linear-gradient(to right,
+      #ccc 0px,
+      #ccc 1px,
+      #FA6C6C 1px,
+      #FA6C6C 25px);
+}
+
+.heat_garage{
+    background-image: repeating-linear-gradient(to right,
+      #ccc 0px,
+      #ccc 1px,
+      #FD9C25 1px,
+      #FD9C25 25px);
+}
+
+.smile_garden{
+    background-image: repeating-linear-gradient(to right,
+      #ccc 0px,
+      #ccc 1px,
+      #B1D500 1px,
+      #B1D500 25px);
+}
+
+.doll_factory{
+    background-image: repeating-linear-gradient(to right,
+      #ccc 0px,
+      #ccc 1px,
+      #39C960 1px,
+      #39C960 25px);
+}
+
+.sky_stage{
+    background-image: repeating-linear-gradient(to right,
+      #ccc 0px,
+      #ccc 1px,
+      #6DC8F9 1px,
+      #6DC8F9 25px);
+}
+
+.torocco_park{
+    background-image: repeating-linear-gradient(to right,
+      #ccc 0px,
+      #ccc 1px,
+      #5F6BDE 1px,
+      #5F6BDE 25px);
+}
+
+.ukisima_stage{
+    background-image: repeating-linear-gradient(to right,
+      #ccc 0px,
+      #ccc 1px,
+      #F2BB00 1px,
+      #F2BB00 25px);
+}
+
+.info_centre{
+    background-image: repeating-linear-gradient(to right,
+      #ccc 0px,
+      #ccc 1px,
+      #CD6CBC 1px,
+      #CD6CBC 25px);
+}
