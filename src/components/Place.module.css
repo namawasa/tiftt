@@ -1,7 +1,7 @@
 .place {
-    height: 50px;
+    height: 60px;
     position: relative;
-    width: 100%;
+    width: calc(300px * 12);
 }
 
 .hot_stage{

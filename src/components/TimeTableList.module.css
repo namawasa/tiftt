@@ -1,0 +1,57 @@
+.time_table_list {
+    flex: 1;
+    width: calc(100vw - 50px);
+    height: fit-content;
+    margin: 10px 10px 10px 0;
+    overflow-x: scroll;
+    border-radius: 5px;
+}
+
+.place {
+    width: 50px;
+    height: 480px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.place_title {
+    flex: 1;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.hot_stage{
+    background-color: #FA6C6C;
+}
+
+.heat_garage{
+    background-color: #FD9C25;
+}
+
+.smile_garden{
+    background-color: #B1D500;
+}
+
+.doll_factory{
+    background-color: #39C960;
+}
+
+.sky_stage{
+    background-color: #6DC8F9;
+}
+
+.torocco_park{
+    background-color: #5F6BDE;
+}
+
+.ukisima_stage{
+    background-color: #F2BB00;
+}
+
+.info_centre{
+    background-color: #CD6CBC;
+}

@@ -1,0 +1,20 @@
+.header {
+    height: 25px;
+    width: fit-content;
+    background-color: white;
+    display: flex;
+}
+
+.time {
+    width: 75px;
+}
+
+.hour {
+    color: black;
+    font-weight: bold;
+}
+
+.minute {
+    color: black;
+    font-size: small;
+}

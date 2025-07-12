@@ -1,8 +1,8 @@
-import TimeTableList from './components/TimeTableList'
+import TimeTablePage from './components/TimeTablePage'
 
 function App() {
   return (
-    <TimeTableList />
+    <TimeTablePage />
   )
 }
 
