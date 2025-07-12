@@ -12,3 +12,8 @@
     margin: 0 1px;
     text-align: center;
 }
+
+.checked {
+    background-color: #9c8383;
+    color: white;
+}
