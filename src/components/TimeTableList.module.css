@@ -16,7 +16,7 @@
 }
 
 .place_title {
-    flex: 1;
+    height: 60px;
     align-self: center;
     align-content: center;
     text-align: center;

@@ -1,6 +1,6 @@
 import { PLACE_TYPE, type PlaceType } from "../types/PlaceType"
 import type { StageInfo } from "../types/StageInfo"
-import Stage from "./Stage"
+import Live from "./Live"
 import styles from "./Place.module.css"
 import { multiStyles } from "../utils/stringUtil"
 
@@ -24,7 +24,7 @@ function Place({ stages, placeType }: PlaceProps) {
   }
   return (
     <div className={multiStyles(styles.place, styleOfPlace())}>
-      {stages.map((item, index) => <Stage key={index} stageInfo={item} />)}
+      {stages.map((item, index) => <Live key={index} liveInfo={item} />)}
     </div>
   )
 }

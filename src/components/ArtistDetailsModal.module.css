@@ -1,0 +1,18 @@
+.contents {
+    display: flex;
+    gap: 15px;
+    flex-flow: column;
+}
+
+.live {
+    display: flex;
+}
+
+.stage {
+    width: 160px;
+}
+
+.time {
+    flex: 1;
+    text-align: center;
+}
