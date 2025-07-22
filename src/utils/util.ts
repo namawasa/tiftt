@@ -15,8 +15,7 @@ export const createNumberArray = (
 export const getArtistStages = (aid: number) => {
     const list = [] as ArtistStage[]
     const dayList = ['2025-08-01', '2025-08-02', '2025-08-03'] as DayCategory[]
-    // const stageList = ['HOT STAGE','HEAT GARAGE','SMILE GARDEN','DOLL FACTORY','SKY STAGE','TOROCCO PARK','浮島STAGE' ,'INFO CENTRE'] as PlaceCategory[]
-    const stageList = ['HOT STAGE', 'HEAT GARAGE', 'SMILE GARDEN', 'DOLL FACTORY', 'SKY STAGE', 'TOROCCO PARK', '浮島STAGE'] as PlaceCategory[]
+    const stageList = ['HOT STAGE','HEAT GARAGE','SMILE GARDEN','DOLL FACTORY','SKY STAGE','TOROCCO PARK','浮島STAGE' ,'INFO CENTRE'] as PlaceCategory[]
 
     dayList.map(day => {
         const stageInfos = [] as StageInfo[]
@@ -28,7 +27,9 @@ export const getArtistStages = (aid: number) => {
                 }
             })
         })
-        list.push({ day, stageInfos })
+        if (stageInfos.length > 0) {
+            list.push({ day, stageInfos })
+        }
     })
     return list
 }
