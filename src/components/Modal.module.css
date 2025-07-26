@@ -1,5 +1,5 @@
 .dialog {
-  padding: 20px;
+  padding: 30px 20px 20px 20px;
   border: none;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
@@ -7,7 +7,6 @@
   width: 90%;
 }
 
-/* ::backdrop 疑似要素でモーダル背景をスタイル */
 .dialog::backdrop {
   background-color: rgba(0, 0, 0, 0.5);
 }

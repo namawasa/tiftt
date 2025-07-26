@@ -39,7 +39,7 @@ function Live({ liveInfo }: LiveProps) {
   const onLongPressLive = () => {
     const srtistStages = getArtistStages(liveInfo.aid)
     setArtistStages(srtistStages)
-    setLiveArtist(liveInfo.title2)
+    setLiveArtist(liveInfo.title2 == '' ? liveInfo.delimited_data : liveInfo.title2)
     setIsModalOpen(true)
   }
 
